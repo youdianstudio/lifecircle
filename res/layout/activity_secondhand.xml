@@ -1,0 +1,151 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+     <ProgressBar 
+       android:id="@+id/secondhanddetail_firstprogressbar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       
+       style="?android:attr/progressBarStyleSmall"
+       />
+<RelativeLayout 
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/secondhand_layout"
+    android:visibility="gone"
+    >
+<LinearLayout
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        android:background="@drawable/titlebar"
+        >
+        <Button
+            android:id="@+id/secondhanddetail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:paddingLeft="16dip"
+            android:paddingRight="10dip"
+            android:background="@drawable/back_bg"
+            android:drawableRight="@drawable/home_icon"
+             />
+        <TextView 
+            android:id="@+id/secondhanddetail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="@string/detail"
+            />
+        
+    </RelativeLayout>
+     <RelativeLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+         <TextView 
+             android:id="@+id/secondhanddetail_name"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="5dp"
+             />
+         <TextView 
+             android:id="@+id/secondhanddetail_price"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/secondhanddetail_name"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="5dp"
+             android:textSize="12sp"
+             />
+         <TextView 
+             android:id="@+id/secondhanddetail_date"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/secondhanddetail_name"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="5dp"
+             android:textSize="12sp"
+             />
+     </RelativeLayout>    
+      <View android:background="#ffa7b5c7" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail"
+        
+        />
+    <TextView 
+        android:id="@+id/secondhanddetail_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lawngreen"
+        />
+</LinearLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/cate_list_item_normal"
+    >
+    <LinearLayout 
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/secondhanddetail_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView 
+            android:id="@+id/secondhanddetail_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <Button 
+        android:id="@+id/secondhanddetail_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/sms"
+        android:textColor="@color/white"
+        />
+    <Button 
+        android:id="@+id/secondhanddetail_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/secondhanddetail_sms"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/call"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

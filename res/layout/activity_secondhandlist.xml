@@ -1,0 +1,58 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+     <ProgressBar 
+       android:id="@+id/secondhand_firstprogressbar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:visibility="gone"
+       style="?android:attr/progressBarStyleSmall"
+       />
+<LinearLayout
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        android:background="@drawable/titlebar"
+        >
+        <Button
+            android:id="@+id/secondhand_back_to_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:paddingLeft="16dip"
+            android:paddingRight="10dip"
+            android:background="@drawable/back_bg"
+            android:drawableRight="@drawable/home_icon"
+             />
+        <TextView 
+            android:id="@+id/secondhand_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            />
+        
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/secondhand_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:visibility="gone"
+        >
+        
+    </ListView>
+    
+</LinearLayout>
+</RelativeLayout>

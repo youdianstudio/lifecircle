@@ -1,0 +1,27 @@
+
+    <resources>
+        <string-array name="catagory">
+            <item>餐饮</item>
+            <item>休闲娱乐</item>
+            <item>生活服务</item>
+            <item>二手市场</item>
+            <item>购物</item>
+            
+            <item>外卖</item>
+            
+            
+            <item>常用电话</item>
+            
+            
+            
+            <item >我的收藏</item>
+            
+        </string-array>
+        <string-array name="mysave">
+            <item >店铺</item>
+            <item >二手物品</item>
+            <item >外卖</item>
+            <item >电话</item>
+            
+        </string-array>
+    </resources>

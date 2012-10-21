@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ProgressBar 
+       android:id="@+id/shop_firstprogressbar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       
+       style="?android:attr/progressBarStyleSmall"
+       />
+    <LinearLayout 
+        android:id="@+id/shop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/bg_color"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/titlebar"
+            >
+            <TextView 
+                android:id="@+id/shopdetail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:text="@string/detail"
+                />
+            <Button 
+                android:id="@+id/shopdetail_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:paddingLeft="16dip"
+                android:paddingRight="10dip"
+                android:background="@drawable/back_bg"
+                android:drawableRight="@drawable/home_icon"
+                />
+            <Button 
+                android:id="@+id/shop_save"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_bg"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                />
+            
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            >
+            <TextView 
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                />
+            
+            
+        </RelativeLayout>
+         <View android:background="#ffa7b5c7" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1dp"/>
+   
+    <TextView 
+        android:id="@+id/shop_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        />
+    
+        <View android:background="#ffa7b5c7" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <TextView 
+        android:id="@+id/shop_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+   
+      <View android:background="#ffa7b5c7" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1dp"/>
+    <TextView 
+        android:id="@+id/shop_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loadmore_bg"
+        android:descendantFocusability="blocksDescendants"
+        
+        >
+      <LinearLayout 
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:id="@+id/secondhand_linear1"
+          android:orientation="vertical"
+          android:layout_alignParentTop="true"
+          >
+          <TextView 
+              android:id="@+id/secondhand_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:layout_marginTop="5dip"
+              android:layout_marginLeft="5dip"
+              
+              />
+        
+      </LinearLayout>
+      <RelativeLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/secondhand_linear1"
+          android:layout_marginTop="10dip"
+          android:layout_marginBottom="5dip"
+          >
+          <TextView 
+              android:id="@+id/secondhand_price"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="12sp"
+              android:layout_marginLeft="5dip"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:textColor="@color/red"
+              />
+          <Button 
+              android:id="@+id/secondhand_catagory"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="12sp"
+              android:background="@drawable/text_bg"
+              android:layout_centerVertical="true"
+              android:layout_centerHorizontal="true"
+              android:focusable="false"
+              />
+          <TextView 
+              android:id="@+id/secondhand_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="12sp"
+              android:layout_marginRight="5dip"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              />
+          
+      </RelativeLayout>
+    </RelativeLayout>

@@ -1,0 +1,9 @@
+
+    <resources>
+        <color name="bg_color">#ffe9f0fa</color>
+        <color name="silver">#C0C0C0</color><!-- 银色 -->
+        <color name="ivory">#FFFFF0</color><!-- 象牙色 -->
+        <color name="white">#FFFFFF</color><!-- 白色 -->
+        <color name="lawngreen">#7CFC00</color><!-- 草绿色 -->
+        <color name="red">#FF0000</color><!-- 红色 -->
+    </resources>

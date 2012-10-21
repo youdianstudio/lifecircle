@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+    >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+    <Button 
+        android:id="@+id/takeawaylist_item_call"
+        style="@style/button_style"
+        android:text="@string/call"
+        />
+      <Button 
+        android:id="@+id/takeawaylist_item_save"
+        style="@style/button_style"
+        android:text="@string/save"
+        />
+          <Button 
+        android:id="@+id/takeawaylist_item_view"
+        style="@style/button_style"
+        android:text="@string/view"
+        />
+     </LinearLayout>
+    
+</LinearLayout>
